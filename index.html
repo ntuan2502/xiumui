@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>3D Carousel Query</title>
+  <link rel='stylesheet' href='https://raw.githubusercontent.com/JohnBlazek/codepen-resources/master/3d-carousel/css/stylesheet.css'>
+<link rel="stylesheet" href="./style.css">
+<style>
+	.img-background{
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		position: relative;
+	}
+</style>
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+		<h1>3D Carousel - Xíu Mụi</h1>
+		<div id="fps">Khung: 0/60 FPS</div>
+	</header>
+	
+	<div id="contentContainer" class="trans3d"> 
+	<section id="carouselContainer" class="trans3d">
+		<figure id="item1" class="carouselItem trans3d"><div class="carouselItemInner trans3d img-background" style="background-image: url('1.jpg');"></div></figure>
+		<figure id="item2" class="carouselItem trans3d"><div class="carouselItemInner trans3d img-background" style="background-image: url('2.jpg');"></div></figure>
+		<figure id="item3" class="carouselItem trans3d"><div class="carouselItemInner trans3d img-background" style="background-image: url('3.jpg');"></div></figure>
+		<figure id="item4" class="carouselItem trans3d"><div class="carouselItemInner trans3d img-background" style="background-image: url('4.jpg');"></div></figure>
+		<figure id="item5" class="carouselItem trans3d"><div class="carouselItemInner trans3d img-background" style="background-image: url('5.jpg');"></div></figure>
+		<figure id="item6" class="carouselItem trans3d"><div class="carouselItemInner trans3d img-background" style="background-image: url('6.jpg');"></div></figure>
+		<figure id="item7" class="carouselItem trans3d"><div class="carouselItemInner trans3d img-background" style="background-image: url('7.jpg');"></div></figure>
+		<figure id="item8" class="carouselItem trans3d"><div class="carouselItemInner trans3d img-background" style="background-image: url('8.jpg');"></div></figure>
+		<figure id="item9" class="carouselItem trans3d"><div class="carouselItemInner trans3d img-background" style="background-image: url('9.jpg');"></div></figure>
+		<figure id="item10" class="carouselItem trans3d"><div class="carouselItemInner trans3d img-background" style="background-image: url('10.jpg');"></div></figure>
+		<figure id="item11" class="carouselItem trans3d"><div class="carouselItemInner trans3d img-background" style="background-image: url('11.jpg');"></div></figure>
+		<figure id="item12" class="carouselItem trans3d"><div class="carouselItemInner trans3d img-background" style="background-image: url('12.jpg');"></div></figure>	
+	</section>
+	</div>
+<!-- partial -->
+  <script src='https://raw.githubusercontent.com/JohnBlazek/codepen-resources/master/3d-carousel/js/libs.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
